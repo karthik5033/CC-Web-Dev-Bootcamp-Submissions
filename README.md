@@ -89,7 +89,7 @@ Click **Fork** on the top right of this page.
 ### 2. Clone Your Fork
 
 ```bash
-git clone https://github.com/karthik5033/CC-Web-Dev-Bootcamp-Submissions.git
+git clone https://github.com/<your-username>/CC-Web-Dev-Bootcamp-Submissions.git
 cd CC-Web-Dev-Bootcamp-Submissions
 ```
 
