@@ -1,0 +1,1 @@
+Promise.race([p1, p2, p3]).then(winner => console.log("Winner:", winner));
