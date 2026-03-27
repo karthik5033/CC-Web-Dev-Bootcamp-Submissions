@@ -412,9 +412,9 @@ Error: Cannot divide by zero!
 ## 👤 Student Details
 
 ```
-Name   :
-USN    :
-GitHub :
+Name   :SATYENDRA NAYAK K
+USN    :1RV25CI165
+GitHub :https://github.com/snk189
 ```
 
 ---
