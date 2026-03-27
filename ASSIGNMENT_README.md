@@ -67,9 +67,9 @@ Use an arrow function inside `.map()` to take an array of numbers `[1, 2, 3, 4, 
 ---
 
 ## ✅ Checklist
-- [ ] `task1.js` — regular function
-- [ ] `task2.js` — arrow function + add
-- [ ] `task3.js` — arrow function with `.map()`
+- [✅] `task1.js` — regular function
+- [✅] `task2.js` — arrow function + add
+- [✅] `task3.js` — arrow function with `.map()`
 
 ---
 ---
@@ -136,9 +136,9 @@ Time's up!
 ---
 
 ## ✅ Checklist
-- [ ] `task1.js` — setTimeout
-- [ ] `task2.js` — setInterval + clearInterval
-- [ ] `task3.js` — countdown timer
+- [✅] `task1.js` — setTimeout
+- [✅] `task2.js` — setInterval + clearInterval
+- [✅] `task3.js` — countdown timer
 
 ---
 ---
@@ -212,9 +212,9 @@ Error: Age must be a positive number!
 ---
 
 ## ✅ Checklist
-- [ ] `task1.js` — basic try/catch with divide
-- [ ] `task2.js` — try/catch/finally with JSON.parse
-- [ ] `task3.js` — custom thrown errors
+- [✅] `task1.js` — basic try/catch with divide
+- [✅] `task2.js` — try/catch/finally with JSON.parse
+- [✅] `task3.js` — custom thrown errors
 
 ---
 ---
@@ -272,8 +272,8 @@ Step 3 - Final: Done: OPERATION SUCCESSFUL!
 ---
 
 ## ✅ Checklist
-- [ ] `task1.js` — basic promise resolve/reject
-- [ ] `task2.js` — 3 chained `.then()` blocks
+- [✅] `task1.js` — basic promise resolve/reject
+- [✅] `task2.js` — 3 chained `.then()` blocks
 
 ---
 ---
@@ -336,9 +336,9 @@ fulfilled - Products loaded
 ---
 
 ## ✅ Checklist
-- [ ] `task1.js` — Promise.all()
-- [ ] `task2.js` — Promise.race()
-- [ ] `task3.js` — Promise.allSettled()
+- [✅] `task1.js` — Promise.all()
+- [✅] `task2.js` — Promise.race()
+- [✅] `task3.js` — Promise.allSettled()
 
 ---
 ---
@@ -403,18 +403,18 @@ Error: Cannot divide by zero!
 ---
 
 ## ✅ Checklist
-- [ ] `task1.js` — basic async/await
-- [ ] `task2.js` — multiple awaits
-- [ ] `task3.js` — async/await with error handling
+- [✅] `task1.js` — basic async/await
+- [✅] `task2.js` — multiple awaits
+- [✅] `task3.js` — async/await with error handling
 
 ---
 
 ## 👤 Student Details
 
 ```
-Name   :
-USN    :
-GitHub :
+Name   :Devansh Gehlot
+USN    :1RV25CI053
+GitHub :https://github.com/devanshgehlot
 ```
 
 ---
