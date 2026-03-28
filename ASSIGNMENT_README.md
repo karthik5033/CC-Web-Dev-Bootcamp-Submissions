@@ -336,7 +336,7 @@ fulfilled - Products loaded
 ---
 
 ## ✅ Checklist
-- [ ] `task1.js` — Promise.all()
+- [x] `task1.js` — Promise.all()
 - [ ] `task2.js` — Promise.race()
 - [ ] `task3.js` — Promise.allSettled()
 

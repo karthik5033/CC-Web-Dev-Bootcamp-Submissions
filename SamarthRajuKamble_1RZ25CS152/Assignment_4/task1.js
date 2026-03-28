@@ -2,15 +2,19 @@ const myProm = () => {
     return new Promise((resolve, reject) => {
         let suc = false;
         setTimeout(() => {
-            if(suc)
+            if(suc) 
+            {
                 resolve("Successful");
+                console.log("Wftugyu");
+            }
             else
                 reject("Unsuccessful");
         }, 2000);
     })
 };
 
-myProm().then((r) =>
+myProm()
+.then((r) =>
 {
     console.log("Work is " + r);
 })
