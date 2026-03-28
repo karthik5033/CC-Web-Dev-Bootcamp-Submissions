@@ -17,8 +17,8 @@ const p3 = new Promise((resolve) => {
 });
 
 Promise.allSettled([p1, p2, p3])
-    .then((ress) => {
-        ress.forEach(res => {
+    .then((res) => {
+        res.forEach(res => {
             if (res.status === "fulfilled") {
                 console.log(`fulfilled - ${res.value}`);
             } else {
