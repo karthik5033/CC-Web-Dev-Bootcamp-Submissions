@@ -67,9 +67,9 @@ Use an arrow function inside `.map()` to take an array of numbers `[1, 2, 3, 4, 
 ---
 
 ## ✅ Checklist
-- [ ] `task1.js` — regular function
-- [ ] `task2.js` — arrow function + add
-- [ ] `task3.js` — arrow function with `.map()`
+- [x] `task1.js` — regular function
+- [x] `task2.js` — arrow function + add
+- [x] `task3.js` — arrow function with `.map()`
 
 ---
 ---
@@ -136,9 +136,9 @@ Time's up!
 ---
 
 ## ✅ Checklist
-- [ ] `task1.js` — setTimeout
-- [ ] `task2.js` — setInterval + clearInterval
-- [ ] `task3.js` — countdown timer
+- [x] `task1.js` — setTimeout
+- [x] `task2.js` — setInterval + clearInterval
+- [x] `task3.js` — countdown timer
 
 ---
 ---
@@ -212,9 +212,9 @@ Error: Age must be a positive number!
 ---
 
 ## ✅ Checklist
-- [ ] `task1.js` — basic try/catch with divide
-- [ ] `task2.js` — try/catch/finally with JSON.parse
-- [ ] `task3.js` — custom thrown errors
+- [x] `task1.js` — basic try/catch with divide
+- [x] `task2.js` — try/catch/finally with JSON.parse
+- [x] `task3.js` — custom thrown errors
 
 ---
 ---
@@ -412,9 +412,9 @@ Error: Cannot divide by zero!
 ## 👤 Student Details
 
 ```
-Name   :
-USN    :
-GitHub :
+Name   : Samarth Raju Kamble
+USN    : 1RZ25CS152
+GitHub : SamarthKamble089
 ```
 
 ---
