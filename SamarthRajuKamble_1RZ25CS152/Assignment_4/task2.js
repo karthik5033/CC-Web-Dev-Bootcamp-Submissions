@@ -1,6 +1,6 @@
 const myProm = () => {
     return new Promise((resolve, reject) => {
-        let suc = false;
+        let suc = true;
         setTimeout(() => {
             if(suc)
                 resolve("Successful");
@@ -12,10 +12,17 @@ const myProm = () => {
 
 myProm().then((r) =>
 {
-    console.log("Work is " + r);
+    console.log("Result is " + r);
+    return r.toUpperCase();
 })
-
-.catch((r) =>
+.then((r) => {
+    console.log("Uppercased: " + r);
+    return r;
+})
+.then((r) => {
+    console.log("Final: " + r);
+})
+.catch((e) =>
 {
-    console.log("Work is unfortnately " + r);
+    console.log("Work is unfortnately " + e);
 })
