@@ -337,8 +337,8 @@ fulfilled - Products loaded
 
 ## ✅ Checklist
 - [x] `task1.js` — Promise.all()
-- [ ] `task2.js` — Promise.race()
-- [ ] `task3.js` — Promise.allSettled()
+- [x] `task2.js` — Promise.race()
+- [x] `task3.js` — Promise.allSettled()
 
 ---
 ---
@@ -403,9 +403,9 @@ Error: Cannot divide by zero!
 ---
 
 ## ✅ Checklist
-- [ ] `task1.js` — basic async/await
-- [ ] `task2.js` — multiple awaits
-- [ ] `task3.js` — async/await with error handling
+- [x] `task1.js` — basic async/await
+- [x] `task2.js` — multiple awaits
+- [x] `task3.js` — async/await with error handling
 
 ---
 

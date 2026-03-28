@@ -16,13 +16,13 @@ const p3 = new Promise((resolve) => {
     }, 3000);
 });
 
-Promise.allSettled([p1, p2, p3])
-    .then((res) => {
-        res.forEach(res => {
-            if (res.status === "fulfilled") {
-                console.log("fulfilled: " + res.value);
-            } else {
-                console.log("rejected: " + res.reason);
-            }
-        });
-    });
+async function runAll()
+{
+    console.log(await p1);
+    console.log(await p2);
+    console.log(await p3);
+    setTimeout(() => {
+    console.log("Everything is DONE!!!");
+    }, 1000);
+}
+runAll();
