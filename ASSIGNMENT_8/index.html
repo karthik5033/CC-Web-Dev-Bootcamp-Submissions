@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple To-Do App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <section class="todo-card">
+      <div class="profile-panel">
+        <div class="avatar" aria-hidden="true">ST</div>
+        <div>
+          <p class="eyebrow">Profile</p>
+          <h1>Daily To-Do List</h1>
+          <p class="profile-copy">Stay on top of your day with a clean, focused checklist.</p>
+        </div>
+      </div>
+
+      <form class="task-form" id="taskForm">
+        <label class="sr-only" for="taskInput">Add a task</label>
+        <input id="taskInput" type="text" placeholder="Enter a task" maxlength="120" autocomplete="off">
+        <button type="submit" class="primary-btn">Add Task</button>
+      </form>
+
+      <p class="validation-message" id="validationMessage" role="alert" aria-live="polite"></p>
+
+      <div class="task-header">
+        <h2>Your Tasks</h2>
+        <button type="button" id="clearBtn" class="secondary-btn" disabled>Clear All</button>
+      </div>
+
+      <ul id="taskList" class="task-list" aria-live="polite"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
